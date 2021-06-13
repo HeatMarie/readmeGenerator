@@ -14,11 +14,12 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `
   # ${data.title}
-  ![badge](https://img.shields.io/github/license/${data.userName}/${data.repo}?color=eb9a0e&style=flat-square)
 
   ![badge](https://img.shields.io/static/v1?label=license&message=${data.license}&color=orange)
 
-  ![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)
+  ![Github commit activity](https://img.shields.io/github/commit-activity/m/${data.userName}/${data.repo}?color=%235FCE3B&style=for-the-badge)
+
+  ![Github top language](https://img.shields.io/github/languages/top/${data.userName}/${data.repo}?color=%23AF630D&style=for-the-badge)
 
   ## Table of Contents
   * [Description](#description)
