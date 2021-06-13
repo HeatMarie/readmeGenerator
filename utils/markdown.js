@@ -12,6 +12,10 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  let license;
+  if(data.license.includes('%20')){
+    license = data.license.replaceAll("%20", " ");
+   }
   return `
   # ${data.title}
 
@@ -33,7 +37,7 @@ function generateMarkdown(data) {
   <a href="https://${data.userName}.github.io/${data.repo}/"> Click for live URL </a>
 
   ## Description
-  ${data.description}
+  (${data.description})
 
   ## Installation
   ${data.installation}
@@ -42,7 +46,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${data.license}
+  ${license}
 
   ## Questions
   ### For any questions or comments feel free to contact me with the email below.
