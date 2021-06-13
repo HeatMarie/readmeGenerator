@@ -14,7 +14,9 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `
   # ${data.title}
-  ![Badge for Github repo](https://img.shields.io/static/v1?label=License&message=${data.license}&color=orange)
+  https://img.shields.io/github/license/${data.userName}/${data.license}?color=eb9a0e&style=flat-square
+
+  https://img.shields.io/static/v1?label=license&message=${data.license}&color=orange
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -22,6 +24,10 @@ function generateMarkdown(data) {
   * [License](#license)
   * [Questions](#questions)
   
+
+  ## Live URL
+  <a href="https://${data.userName}.github.io/${data.repo}/"> Click for live URL </a>
+
   ## Description
   ${data.description}
 

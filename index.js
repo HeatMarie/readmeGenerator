@@ -18,6 +18,11 @@ function init() {
         },
         {
             type: 'input',
+            name: 'repo',
+            message: 'What is the repository name?'
+        },
+        {
+            type: 'input',
             name: 'email',
             message: 'Enter your email address',
         },
@@ -44,7 +49,7 @@ function init() {
         {
             type: 'list',
             name: 'license',
-            choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0', 'GNU Lesser General Public License v2.1', 'Mozilla Public License 2.0', 'The Unlicense' ]
+            choices: ['None', 'Apache2.0', 'GNU General Public License v3.0', 'MIT', 'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0', 'GNU Lesser General Public License v2.1', 'Mozilla Public License 2.0', 'The Unlicense' ]
         },
         {
             type: 'input',
@@ -58,7 +63,7 @@ function init() {
         }
     ])
         .then((response) => writeFileAsync('README.md', generateMarkdown(response)))
-        .then(() => console.log('Successfuly wrote to README.md'))
+        .then(() => console.log('Successfully wrote to README.md'))
         .catch((err) => console.log(err));
 }
 

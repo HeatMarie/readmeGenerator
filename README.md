@@ -1,6 +1,8 @@
 
-  # Something Special
-  ![Badge for Github repo](https://img.shields.io/static/v1?label=License&message=MIT License&color=orange)
+  # Readme Generator
+  https://img.shields.io/github/license/HeatMarie/MIT?color=eb9a0e&style=flat-square
+
+  https://img.shields.io/static/v1?label=license&message=MIT&color=orange
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -8,17 +10,21 @@
   * [License](#license)
   * [Questions](#questions)
   
+
+  ## Live URL
+  <a href="https://HeatMarie.github.io/readmeGenerator/"> Click for live URL </a>
+
   ## Description
-  The discription of something that I don't know what it is yet.
+  This is the description of the project. It automatically creates a readme write up. And all that fancy stuff
 
   ## Installation
-  Just do the fun things and have at it 
+  Use node and npm to install the needed modules and do the things you need to do. 
 
   ## Usage
-  Something else 
+  Want to easily create a README? Use this 
 
   ## License
-  MIT License
+  MIT
 
   ## Questions
   ### For any questions or comments feel free to contact me with the email below.
