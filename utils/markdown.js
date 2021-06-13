@@ -16,6 +16,8 @@ function generateMarkdown(data) {
   # ${data.title}
   ![badge](https://img.shields.io/github/license/${data.userName}/${data.license}?color=eb9a0e&style=flat-square)
 
+  ![badge](https://img.shields.io/static/v1?label=license&message=${data.license}&color=orange)
+
   ![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)
   
   ## Table of Contents

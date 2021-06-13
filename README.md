@@ -1,8 +1,11 @@
 
-  # Readme Generator
-  https://img.shields.io/github/license/HeatMarie/MIT?color=eb9a0e&style=flat-square
+  # README Generator
+  ![badge](https://img.shields.io/github/license/HeatMarie/Apache2.0?color=eb9a0e&style=flat-square)
 
-  https://img.shields.io/static/v1?label=license&message=MIT&color=orange
+  ![badge](https://img.shields.io/static/v1?label=license&message=Apache2.0&color=orange)
+
+  ![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)
+  
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -15,16 +18,16 @@
   <a href="https://HeatMarie.github.io/readmeGenerator/"> Click for live URL </a>
 
   ## Description
-  This is the description of the project. It automatically creates a readme write up. And all that fancy stuff
+  This is the description of all the things 
 
   ## Installation
-  Use node and npm to install the needed modules and do the things you need to do. 
+  This is the installation instructions 
 
   ## Usage
-  Want to easily create a README? Use this 
+  this is the usage info
 
   ## License
-  MIT
+  Apache2.0
 
   ## Questions
   ### For any questions or comments feel free to contact me with the email below.
