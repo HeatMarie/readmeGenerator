@@ -14,12 +14,13 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `
   # ${data.title}
-  ![Badge for Github repo](https://img.shields.io/github/license/HeatMarie/readmeGenerator?color=%23d1730b)
+  ![Badge for Github repo](https://img.shields.io/static/v1?label=License&message=${data.license}&color=orange)
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
+  * [Questions](#questions)
   
   ## Description
   ${data.description}
@@ -32,6 +33,14 @@ function generateMarkdown(data) {
 
   ## License
   ${data.license}
+
+  ## Questions
+  ### For any questions or comments feel free to contact me with the email below.
+
+  <a href="mailto:${data.email}">Email</a>
+
+  <a href="https://github.com/${data.userName}">Github</a>
+  
 
 `;
 }
