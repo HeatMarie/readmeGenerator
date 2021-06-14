@@ -19,10 +19,10 @@ function generateMarkdown(data) {
 
   switch (licenseDescription) {
     case 'Apache 2.0':
-      licenseDescription = `<a href="https://choosealicense.com/licenses/apache-2.0/">Apache 2.0 Description</a>`;
+      licenseDescription = `This project uses the Apache 2.0 license: for a full description click <a href="https://choosealicense.com/licenses/apache-2.0/">here</a>`;
       break;
     case 'GNU General Public License v3.0':
-      licenseDescription = `<a href="https://choosealicense.com/licenses/gpl-3.0/">General Public License v3.0 Description</a>`;
+      licenseDescription = `This project uses the GNU General Public License v3.0: for a full description click <a href="https://choosealicense.com/licenses/gpl-3.0/">here</a>`;
       break;
     case 'MIT':
       licenseDescription = `
@@ -109,7 +109,7 @@ function generateMarkdown(data) {
       OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       `
       break;
-    case `Boost Softwaare License`:
+    case `Boost Software License 1.0`:
       licenseDescription = `Boost Software License - Version 1.0 - August 17th, 2003
 
       Permission is hereby granted, free of charge, to any person or organization
@@ -132,7 +132,7 @@ function generateMarkdown(data) {
       SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
       FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
       ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-      DEALINGS IN THE SOFTWARE. `
+      DEALINGS IN THE SOFTWARE. `;
       break;
     case 'Creative Commons Zero v1.0 Universal':
       licenseDescription = `This project uses the Creative Commons Zero v1.0 Universal License: for full description click <a href="https://choosealicense.com/licenses/cc0-1.0/">here</a> `
@@ -143,16 +143,16 @@ function generateMarkdown(data) {
     case `GNU Affero General Public License v3.0`:
       licenseDescription = `This project uses the GNU Affero Gneral Public License v3.0: for a full description click <a href="https://choosealicense.com/licenses/agpl-3.0/">here</a> `
       break;
-    case ` GNU General Public License 2.0`:
+    case `GNU General Public License v2.0`:
      licenseDescription = `This project uses the GNU General Public License 2.0: for a full description click <a href="https://choosealicense.com/licenses/gpl-2.0/">here</a> `;
      break;
-    case `GNU lesser General Public License v2.1`:
-      licenseDescription = `This project uses the GNU lesser General Public License v2.1: for a full description click <a href="https://choosealicense.com/licenses/lgpl-2.1/">here</a> `
+    case `GNU Lesser General Public License v2.1`:
+      licenseDescription = `This project uses the GNU lesser General Public License v2.1: for a full description click <a href="https://choosealicense.com/licenses/lgpl-2.1/">here</a>`;
       break;
-    case ` Mozilla Public License 2.0`:
+    case `Mozilla Public License 2.0`:
       licenseDescription = `This project uses the Mozilla Public License 2.0: for a full description click <a href="https://choosealicense.com/licenses/mpl-2.0/">here</a> `
       break;
-    case ` The Unlicense`:
+    case `The Unlicense`:
       licenseDescription = `This is free and unencumbered software released into the public domain.
 
       Anyone is free to copy, modify, publish, use, compile, sell, or
@@ -176,7 +176,7 @@ function generateMarkdown(data) {
       ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
       OTHER DEALINGS IN THE SOFTWARE.
       
-      For more information, please refer to <https://unlicense.org> `;
+       `;
       break;
   }
   if (data.license.includes(" ")) {
@@ -217,7 +217,8 @@ function generateMarkdown(data) {
   ${licenseDescription}
 
   ## Questions
-  ### For any questions or comments feel free to contact me with the email below.
+  ### For any questions or comments feel free to contact me by using the email below.
+  \n
 
   <a href="mailto:${data.email}">Email</a>
 
