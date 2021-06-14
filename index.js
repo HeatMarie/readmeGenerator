@@ -23,6 +23,16 @@ function init() {
         },
         {
             type: 'input',
+            name: 'fullName',
+            message: 'What is your full name?',
+        },
+        {
+            type: 'input',
+            name: 'year',
+            message: 'What year was this project created?',
+        },
+        {
+            type: 'input',
             name: 'email',
             message: 'Enter your email address',
         },
@@ -49,7 +59,7 @@ function init() {
         {
             type: 'list',
             name: 'license',
-            choices: ['None', 'Apache%202.0', 'GNU%20General%20Public%20License%20v3.0', 'MIT', 'BSD%202-Clause%20"Simplified"%20License', 'BSD%203203-Clause%20"New"%20or%20"Revised"%20License', 'Boost%20Software%20License%201.0', 'Creative%20Commons%20Zero%20v1.0%20Universal', 'Eclipse%20Public%20License%202.0', 'GNU%20Affero%20General%20Public%20License%20v3.0', 'GNU%20General%20Public%20License%20v2.0', 'GNU%20Lesser%20General%20Public%20License%20v2.1', 'Mozilla%20Public%20License%202.0', 'The%20Unlicense' ]
+            choices: ['None', 'Apache 2.0', 'GNU General Public License v3.0', 'MIT', 'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0', 'GNU Lesser General Public License v2.1', 'Mozilla Public License 2.0', 'The Unlicense' ]
         },
         {
             type: 'input',
