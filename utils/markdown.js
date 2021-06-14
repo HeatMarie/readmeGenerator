@@ -204,8 +204,8 @@ function generateMarkdown(data) {
   <a href="https://${data.userName}.github.io/${data.repo}/"> Click for live URL </a>
 
   ## Description
-  (${data.description})
-
+  ${data.description}
+  ![Gif Demo](./images/test.gif)
   ## Installation
   ${data.installation}
 
@@ -217,12 +217,10 @@ function generateMarkdown(data) {
   ${licenseDescription}
 
   ## Questions
-  ### For any questions or comments feel free to contact me by using the email below.
+  ### For any questions or comments feel free to contact me at: <a href="mailto:${data.email}">${data.email}</a>
   \n
-
-  <a href="mailto:${data.email}">Email</a>
-
-  <a href="https://github.com/${data.userName}">Github</a>
+  \n
+  To view more project visit my Github: <a href="https://github.com/${data.userName}">${data.userName}</a>
   
 
 `;

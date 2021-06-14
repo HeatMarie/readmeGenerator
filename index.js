@@ -72,7 +72,7 @@ function init() {
             message: 'What tests were done to ensure the quality of this project?'
         }
     ])
-        .then((response) => writeFileAsync('README.md', generateMarkdown(response)))
+        .then((response) => writeFileAsync('./demo/README.md', generateMarkdown(response)))
         .then(() => console.log('Successfully wrote to README.md'))
         .catch((err) => console.log(err));
 }
