@@ -204,8 +204,8 @@ function generateMarkdown(data) {
   <a href="https://${data.userName}.github.io/${data.repo}/"> Click for live URL </a>
 
   ## Description
-  ${data.description}
-  ![Gif Demo](./images/test.gif)
+  ${data.description}\n
+  ![screen-gif](images/test.gif)
   ## Installation
   ${data.installation}
 

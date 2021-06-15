@@ -20,7 +20,8 @@
 
   ## Description
   
-  ![Gif Demo](./images/test.gif)
+
+  ![screen-gif](images/test.gif)
   ## Installation
   
 
