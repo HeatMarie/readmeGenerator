@@ -19,21 +19,16 @@
   <a href="https://HeatMarie.github.io/readmeGenerator/"> Click for live URL </a>
 
   ## Description
-<<<<<<< HEAD
-  This is the sample of what the README Generator does ! 
+  This is the sample for the README demo. This was created by using the README Generator.
 
-=======
-  
- <img src="../images/homework-demo.gif">
->>>>>>> c0cd7b158ec9cba6870b801ded0e59781909019a
 
- ![Gif Demo](../images/test.gif)
+ ![Gif Demo](../images/testdemo1.gif)
 
   ## Installation
-  Use node.js, npm, and install inquirer 
+  Fork this repository, clone it, use npm and node.js in terminal to answer the questionss. 
 
   ## Usage
-  This will generate a REAADME for quick and easy use.
+  This is used to create a README Generator that will help create a README in a faster, simple way. 
 
   ## License
   
