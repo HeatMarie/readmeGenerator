@@ -22,7 +22,7 @@
   
 
 
-  <img src="./images/test.gif">
+  <img src="images/homework-demo.gif">
 
   ## Installation
   

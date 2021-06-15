@@ -206,7 +206,7 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}\n
 
-  <img src="./images/test.gif">
+  <img src="images/homework-demo.gif">
 
   ## Installation
   ${data.installation}
