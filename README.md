@@ -15,8 +15,9 @@
   * [Questions](#questions)
   
 
-  ## Live URL
-  <a href="https://HeatMarie.github.io/readmeGenerator/"> Click for live URL </a>
+  ## Project Demo
+  
+   ![Gif Demo]{images/test1.gif}
 
   ## Description
   (Making my life easier by quickly generating a README using node.js and npm.)
@@ -25,7 +26,7 @@
   This application uses node.js 
 
   ## Usage
-  Use this to create simple README.md for your projects 
+  Use this to create simple README.md for your projects
 
   ## License
   

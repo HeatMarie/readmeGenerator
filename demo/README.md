@@ -19,8 +19,13 @@
   <a href="https://HeatMarie.github.io/readmeGenerator/"> Click for live URL </a>
 
   ## Description
+<<<<<<< HEAD
   This is the sample of what the README Generator does ! 
 
+=======
+  
+ <img src="../images/homework-demo.gif">
+>>>>>>> c0cd7b158ec9cba6870b801ded0e59781909019a
 
  ![Gif Demo](../images/test.gif)
 
