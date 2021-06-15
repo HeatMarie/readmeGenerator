@@ -198,6 +198,8 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * [License](#license)
   * [Questions](#questions)
+  * [Contribution](#contribution)
+  * [Tests](#test)
   
 
   ## Live URL
@@ -224,6 +226,12 @@ function generateMarkdown(data) {
   \n
   To view more project visit my Github: <a href="https://github.com/${data.userName}">${data.userName}</a>
   
+  ## Contribution
+  ${data.contributing}
+
+
+  ## Tests
+  ${data.tests}
 
 `;
 }

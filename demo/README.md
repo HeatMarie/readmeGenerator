@@ -13,22 +13,24 @@
   * [Usage](#usage)
   * [License](#license)
   * [Questions](#questions)
+  * [Contribution](#contribution)
+  * [Tests](#test)
   
 
   ## Live URL
   <a href="https://HeatMarie.github.io/readmeGenerator/"> Click for live URL </a>
 
   ## Description
-  This is the sample for the README demo. This was created by using the README Generator.
+  This is a sample for what the README Generator does! It helps create a README.md by using node.js and npm.
 
 
- ![Gif Demo](../images/testdemo1.gif)
+ ![Gif Demo](../testdemo1.gif)
 
   ## Installation
-  Fork this repository, clone it, use npm and node.js in terminal to answer the questionss. 
+  Fork this repo, clone it, and use the termianl to answer the questions.
 
   ## Usage
-  This is used to create a README Generator that will help create a README in a faster, simple way. 
+  Use this to create a beautiful README.md
 
   ## License
   
@@ -64,4 +66,10 @@
 
   To view more project visit my Github: <a href="https://github.com/HeatMarie">HeatMarie</a>
   
+  ## Contribution
+  There are no contributing guidelines
+
+
+  ## Tests
+  There were no tests done. 
 
