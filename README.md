@@ -17,7 +17,7 @@
 
   ## Project Demo
   
-   ![Gif Demo]{images/testdemo1.gif}
+   ![Gif Demo](images/testdemo1.gif)
 
   ## Description
   (Making my life easier by quickly generating a README using node.js and npm.)
