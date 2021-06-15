@@ -26,6 +26,8 @@
 
   ## Usage
   Use this to create simple README.md for your projects 
+  
+  <iframe src="https://drive.google.com/file/d/1Nwq-gHmCZvtyDbDa4LOu20cdGuJU1oiB/preview" width="640" height="480"></iframe>
 
   ## License
   
