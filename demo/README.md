@@ -20,7 +20,7 @@
 
   ## Description
   
- <img src="images/homework-demo.gif">
+ <img src="../images/homework-demo.gif">
 
   <img src="images/homework-demo.gif">
 
