@@ -48,6 +48,11 @@ function init() {
         },
         {
             type: 'input',
+            name: 'image',
+            message: 'Enter the relative path or URL to your image or gif.'
+        },
+        {
+            type: 'input',
             name: 'installation',
             message: 'Enter the installation instructions.'
         },
