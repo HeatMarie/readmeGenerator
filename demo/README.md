@@ -21,7 +21,9 @@
   ## Description
   
 
-  ![screen-gif](images/test.gif)
+
+  <img src="./images/test.gif">
+
   ## Installation
   
 
